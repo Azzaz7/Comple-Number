@@ -12,6 +12,7 @@
 		D6862CF1204FEEB0005081BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6862CF0204FEEB0005081BD /* ViewController.m */; };
 		D6862CF3204FEEB0005081BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6862CF2204FEEB0005081BD /* Assets.xcassets */; };
 		D6862CF6204FEEB0005081BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6862CF4204FEEB0005081BD /* Main.storyboard */; };
+		D6862CFF204FEED7005081BD /* ComplexNum.m in Sources */ = {isa = PBXBuildFile; fileRef = D6862CFE204FEED7005081BD /* ComplexNum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		D6862CF2204FEEB0005081BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6862CF5204FEEB0005081BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6862CF7204FEEB0005081BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6862CFD204FEED7005081BD /* ComplexNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexNum.h; sourceTree = "<group>"; };
+		D6862CFE204FEED7005081BD /* ComplexNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplexNum.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +63,12 @@
 				D6862CEA204FEEB0005081BD /* AppDelegate.m */,
 				D6862CEF204FEEB0005081BD /* ViewController.h */,
 				D6862CF0204FEEB0005081BD /* ViewController.m */,
-				D6862CF2204FEEB0005081BD /* Assets.xcassets */,
 				D6862CF4204FEEB0005081BD /* Main.storyboard */,
 				D6862CF7204FEEB0005081BD /* Info.plist */,
 				D6862CEC204FEEB0005081BD /* Supporting Files */,
+				D6862CFD204FEED7005081BD /* ComplexNum.h */,
+				D6862CF2204FEEB0005081BD /* Assets.xcassets */,
+				D6862CFE204FEED7005081BD /* ComplexNum.m */,
 			);
 			path = Lect1_3;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				D6862CF1204FEEB0005081BD /* ViewController.m in Sources */,
 				D6862CEE204FEEB0005081BD /* main.m in Sources */,
 				D6862CEB204FEEB0005081BD /* AppDelegate.m in Sources */,
+				D6862CFF204FEED7005081BD /* ComplexNum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				D6862CFC204FEEB0005081BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
